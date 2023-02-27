@@ -1,6 +1,6 @@
 <?php
-include_once "Models/Product.php";
-include_once "Services/ProductManager.php";
+include_once 'C:\xampp\htdocs\php-product-manager\Models\Product.php';
+include_once 'C:\xampp\htdocs\php-product-manager\Services\ProductManager.php';
 
 use Services\ProductManager;
 use Models\Product;
@@ -13,4 +13,3 @@ $products = $productManager->getProducts();
 foreach ($products as $product) {
     echo $product->getName() . "<br/>";
 }
-?>
